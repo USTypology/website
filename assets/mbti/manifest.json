@@ -1,0 +1,10 @@
+{
+  "types": [
+    "INTJ","INTP","ENTJ","ENTP",
+    "INFJ","INFP","ENFJ","ENFP",
+    "ISTJ","ISFJ","ESTJ","ESFJ",
+    "ISTP","ISFP","ESTP","ESFP"
+  ],
+  "schemaVersion": 1,
+  "description": "Minimal symbolic SVG representations (male/female variants) for each MBTI type. Colors map to temperaments (NT: purple, NF: teal, SJ: gold, SP: orange). Shapes encode attitude and function stack abstractly (triangle = thinking, circle = feeling, square = sensing, starburst = intuition; upward = extraverted lead, inward = introverted lead)."
+}
