@@ -1,0 +1,120 @@
+:root { 
+  --nt:#6b3fa0; 
+  --nf:#0c8d8f; 
+  --sj:#c79a00; 
+  --sp:#d96c00; 
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif; 
+}
+
+body { 
+  margin:0; 
+  background:#0f1115; 
+  color:#eef2f7; 
+}
+
+header { 
+  padding:2rem 1.5rem; 
+  text-align:center; 
+}
+
+h1 { 
+  margin:0 0 .5rem; 
+  font-size:clamp(1.8rem,4vw,3rem); 
+}
+
+p.lead { 
+  max-width:760px; 
+  margin:.5rem auto 0; 
+  line-height:1.5; 
+  opacity:.85; 
+}
+
+.grid { 
+  display:grid; 
+  gap:1.25rem; 
+  padding:2rem; 
+  grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); 
+}
+
+.card { 
+  background:#181c23; 
+  border:1px solid #222a33; 
+  padding:1rem .75rem 1.25rem; 
+  border-radius:14px; 
+  position:relative; 
+  overflow:hidden; 
+  box-shadow:0 4px 16px -4px #000 inset,0 2px 4px -2px #000; 
+}
+
+.card h2 { 
+  margin:.6rem 0 .4rem; 
+  font-size:1rem; 
+  letter-spacing:.06em; 
+  font-weight:600; 
+}
+
+.variant-wrap { 
+  display:flex; 
+  gap:.5rem; 
+  justify-content:center; 
+}
+
+.variant-wrap img { 
+  width:52px; 
+  height:52px; 
+  filter:drop-shadow(0 2px 4px rgba(0,0,0,.5)); 
+  transition:transform .35s cubic-bezier(.4,.2,.2,1), filter .35s; 
+}
+
+.card:focus-within img, .card:hover img { 
+  transform:translateY(-4px) scale(1.06); 
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.65)); 
+}
+
+.badge { 
+  position:absolute; 
+  top:8px; 
+  right:10px; 
+  font-size:.65rem; 
+  letter-spacing:.08em; 
+  font-weight:600; 
+  padding:.25rem .45rem; 
+  border-radius:6px; 
+  background:#222e39; 
+  color:#8aa4b8; 
+  text-transform:uppercase; 
+}
+
+footer { 
+  padding:3rem 1.5rem 4rem; 
+  text-align:center; 
+  font-size:.85rem; 
+  opacity:.7; 
+}
+
+.tempera { 
+  font-size:.65rem; 
+  margin:0; 
+  letter-spacing:.05em; 
+  display:flex; 
+  gap:4px; 
+  justify-content:center; 
+  flex-wrap:wrap; 
+}
+
+.tempera span { 
+  display:inline-flex; 
+  align-items:center; 
+  gap:4px; 
+  padding:.3rem .55rem; 
+  background:#1d242d; 
+  border:1px solid #252f3a; 
+  border-radius:100px; 
+}
+
+.color-dot { 
+  width:10px; 
+  height:10px; 
+  border-radius:50%; 
+  display:inline-block; 
+}
