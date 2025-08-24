@@ -22,3 +22,11 @@ lerna-debug.log*
 # temp directory
 .temp
 .tmp
+
+# Vite build outputs
+dist-ssr
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
