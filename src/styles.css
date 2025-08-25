@@ -1,15 +1,15 @@
 :root { 
-  --nt:#6b3fa0; 
-  --nf:#0c8d8f; 
-  --sj:#c79a00; 
-  --sp:#d96c00; 
+  --nt:#8B4513; 
+  --nf:#A0522D; 
+  --sj:#CD853F; 
+  --sp:#D2691E; 
   font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif; 
 }
 
 body { 
   margin:0; 
-  background:#0f1115; 
-  color:#eef2f7; 
+  background:#2F1B14; 
+  color:#F5DEB3; 
 }
 
 header { 
@@ -37,13 +37,13 @@ p.lead {
 }
 
 .card { 
-  background:#181c23; 
-  border:1px solid #222a33; 
+  background:#3E2723; 
+  border:1px solid #5D4037; 
   padding:1rem .75rem 1.25rem; 
   border-radius:14px; 
   position:relative; 
   overflow:hidden; 
-  box-shadow:0 4px 16px -4px #000 inset,0 2px 4px -2px #000; 
+  box-shadow:0 4px 16px -4px #1A0E0A inset,0 2px 4px -2px #1A0E0A; 
 }
 
 .card h2 { 
@@ -80,8 +80,8 @@ p.lead {
   font-weight:600; 
   padding:.25rem .45rem; 
   border-radius:6px; 
-  background:#222e39; 
-  color:#8aa4b8; 
+  background:#4E342E; 
+  color:#D7CCC8; 
   text-transform:uppercase; 
 }
 
@@ -107,8 +107,8 @@ footer {
   align-items:center; 
   gap:4px; 
   padding:.3rem .55rem; 
-  background:#1d242d; 
-  border:1px solid #252f3a; 
+  background:#4A2C2A; 
+  border:1px solid #6D4C41; 
   border-radius:100px; 
 }
 
